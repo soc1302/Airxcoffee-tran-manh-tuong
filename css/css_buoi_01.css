@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.airx_container{
+			width: 100%;
+			height: auto;
+			padding: 0%;
+		}
+		
+/*-----------------header--------------*/		
+.airx_header{
+			width: 100%;
+			height: 633px;
+			position:relative;
+		}
+.airx_logo{
+			width: 250px;
+			height: 100%;
+			position: absolute;
+			left: 20px;
+			top: 30px;
+			text-align: center;
+		}		
+.airx_menu{
+			width: 45%;
+			height: 60px;
+			position: absolute;
+			right: 0px;
+			top: 30px;
+		}
+				.airx_menu ul{
+					list-style:none;
+					padding-left: 0;
+				}
+				.airx_menu ul li{
+					float: left;	
+					padding: 10px 0px 10px 0px;
+					position: relative;
+					display: block;
+					width: 150px;	
+					text-align: center;
+				}
+				.airx_menu ul li ul{
+					position: absolute;
+					left: 0px;
+					top: 50px;
+					visibility: hidden;
+				}
+				.airx_menu ul li:hover ul{
+					visibility: visible;
+				}
+				.airx_menu ul li ul li{
+					background-color: #4E3A3A;
+					display: block;
+					width: 150px;
+					text-align: center;
+				}
+				.airx_menu ul li:hover{
+					border-bottom: #FBFBFB solid 5px;
+				}
+				.airx_menu ul li:hover a{
+					color: blanchedalmond;
+					font-size: 20px;
+				}
+				.airx_menu ul li a{ 
+					text-decoration: none;
+				}
+				.airx_menu ul li ul li:hover b{
+					color: blanchedalmond;
+					font-size: 22px;
+				}
+				.airx_menu ul li b{ color: aliceblue;
+					text-decoration: none;	
+				}
+.airx_bigtext{
+			width: 100%;
+			height: 200px;
+			position: absolute;
+			top: 250px;
+			text-align: center;
+			
+		}
+.airx_button{
+			height: 40px;
+			position: absolute;
+			top: 370px;
+			left: 43%;
+			text-align: center;
+			border:  #FFFFFF solid 1px;
+			color: aliceblue;
+			padding: 7px;
+			font-family: gotham;
+			font-size: 25PX;
+			transition: all 0.5s ease;
+		}
+.airx_button:hover{
+			transform: scale(1.2);
+		}	
+
+/*-----------------end---header--------------*/		
+
+/*-----------------product--------------*/	
+		
+.airx_product{
+	width: 50%;
+	height: 767px;
+	float: left;
+		}
+.airx_product_pic{
+			width: 47%;
+			float: left;
+			margin: 2% 0 0 2%;
+			position: relative;
+			opacity: 1;
+			transition:all 1s ease;
+		}
+.label{
+	width: 100%;
+	color: #ffffff;
+	position: absolute;	
+	top: 45%;
+	line-height: 50px;
+	text-align: center;
+	transition: all 0.8s ease;
+	font-size: 40px;
+	font-family: gotham;
+	font-weight: 600;
+	opacity: 0;
+}
+
+	
+.airx_product_pic:hover .label{
+	opacity: 1;
+	transform: scale(1.5);
+}
+.airx_product_pic:hover img{
+	opacity: 0.7;
+}
+
+/*-----------------end---product--------------*/
+
+/*-----------------product-text--------------*/	
+
+.airx_pro_text{
+	width: 50%;
+	height: 767px;
+	float: right;
+	background: #2F2323;
+	position: relative;
+}
+
+.airx_pro_text_1{
+	width: 55%;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+}
+.airx_pro_button{
+			height: 40px;
+			position: absolute;
+			bottom: 20%;
+			left: 30%;
+			border:  #FFFFFF solid 1px;
+			color: aliceblue;
+			padding: 8px;
+			font-family: gotham;
+			transition: all 0.5s ease;
+			opacity: 0.8;
+		}
+.airx_pro_button:hover{
+			opacity: 1;
+			background-color: aliceblue;
+			color: #342D2D;
+		}
+
+/*----------------end---product-text--------------*/	
+
+/*-----------------benifit--------------*/
+.airx_benifit{
+	width: 100%;
+	height: 580px;
+	position: relative;
+	float: left;
+}
+.airx_be_content{
+	width: 30%;
+	height: 370px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+.airx_be_con_icon{
+	width: 15%;
+	height: 60px;
+	position: relative;
+	float: left;
+	transition: all 0.5s ease;
+}
+.airx_be_con_icon:hover{
+	transform: scale(1.3);
+}
+
+
+.airx_be_con_text{
+	width: 78%;
+	height: 60px;
+	position: relative;
+	float: right;
+	padding-top: 20px;
+	font-family: helvetica;
+}
+
+/*-----------------end---benifit--------------*/
+
+/*-----------------partner--------------*/
+.airx_partners{
+	width: 100%;
+	height: 750px;
+	position: relative;
+	float: left;
+}
+.airx_pa_bigtext{
+	width: 25%;
+	position: absolute;
+	top: 20%;
+	left: 22%;
+	color: aliceblue;
+	font-size: 60px;
+	font-weight: 600;
+	font-family: montserrat;
+}
+.airx_pa_smalltext{
+	width: 30%;
+	position: absolute;
+	top: 22%;
+	left: 50%;
+	color: aliceblue;
+	font-size: 15px;
+	font-weight: 50;
+	font-family: helvetica;
+}
+.airx_carousel{
+			width: 60%;
+			height: 20%;
+			position: absolute;
+			top: 40%;
+			left: 22%;
+		}
+/*-----------------end---partner--------------*/
+
+/*-----------------contact--------------*/
+.airx_contact{
+	width: 100%;
+	height: 600px;
+	background: #2F2323;
+	position: relative;
+	float: left;
+}
+.airx_con_text{
+	width: 30%;
+	height: 400px;
+	position: absolute;
+	top: 20%;
+	left: 17%;
+	text-align: left;
+	color: aliceblue
+}
+.airx_con_text_icon{
+	width: 10%;
+	position: absolute;
+	top: 50%;
+	
+}
+.airx_con_small_text{
+	width: 60%;
+	position: absolute;
+	top: 53%;
+	right: 25%;
+	text-align: left;
+	color: aliceblue;
+	font-size: 25px;
+	font-family: helvetica;
+	
+	
+}
+.airx_con_form{
+	width: 40%;
+	height: 400px;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+}
+
+
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+	color: aliceblue
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+/*-----------------end---contact--------------*/
+
+
+
+
+
+
+
+
+
